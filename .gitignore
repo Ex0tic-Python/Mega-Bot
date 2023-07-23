@@ -1,2 +1,2 @@
-# Ignores the bot.token file which contains my bots token
-src/Cogs_And_Other/Data_Files/bot.token
+# Ignores the bot token .env file
+token.env
