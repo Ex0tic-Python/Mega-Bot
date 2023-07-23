@@ -1,0 +1,2 @@
+# Ignores the bot.token file which contains my bots token
+src/Cogs_And_Other/Data_Files/bot.token
