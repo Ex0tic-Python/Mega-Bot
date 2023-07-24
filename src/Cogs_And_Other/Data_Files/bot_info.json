@@ -1,3 +1,24 @@
 {
-
+    "Bot Prefix": "--",
+    "Bot Status": {
+        "Status": "",
+        "Description": ""
+    },
+    "Intents": {
+        "guilds": true,
+        "members": true,
+        "moderation": true,
+        "emojis_and_stickers": true,
+        "integrations": false,
+        "webhooks": false,
+        "invites": false,
+        "voice_states": true,
+        "presences": true,
+        "messages": true,
+        "reactions": true,
+        "typing": false,
+        "message_content": true,
+        "guild_scheduled_events": false,
+        "auto_moderation": true
+    }
 }
