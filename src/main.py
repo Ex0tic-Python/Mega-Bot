@@ -2,6 +2,8 @@
 # Library Imports
 import discord as disc
 from json import load
+from dotenv import load_dotenv
+from os import getenv
 
 # File Imports
 from helper_methods import prefix_loader
@@ -32,8 +34,13 @@ def bot_initiation():
     )
 
     bot = disc.ext.commands.Bot(
-        prefix = prefix_loader
+        prefix = prefix_loader,
+        case_insensitive
     )
+    
+    load_dotenv()
+    bot_token = getenv('bot_token')
+    bot.run(bot_token)
 
 
 
